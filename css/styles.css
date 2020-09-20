@@ -11,7 +11,6 @@
 /* цвет фона вторичный #2F303A */
 
 body {
-    width: 1600px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400px;
@@ -35,19 +34,11 @@ a:focus {
     color: #2196F3;
 }
 
-.header-container {
-    display: flex;
-    width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
 .nav-container {
-    width: 1230px;
-    height: 80px;
+    width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
+    height: 80px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -57,7 +48,7 @@ a:focus {
     display: flex;
 }
 
-..site-nav-container .item:not(:last-child) {
+.site-nav-container .item:not(:last-child) {
     margin-right: 50px;
 }
 
