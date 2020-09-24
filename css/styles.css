@@ -241,14 +241,14 @@ a:focus {
 .team-section {
     padding-top: 94px;
     padding-bottom: 94px;
-    padding-left: 15px;
-    padding-right: 15px;
     background-color: var(--third-background-color);
 }
 
 .team-container {
     width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -312,6 +312,7 @@ a:focus {
 }
 
 .logo-footer {
+    display: block;
     margin: 0;
     margin-bottom: 20px;
 }
@@ -326,9 +327,9 @@ a:focus {
 .filter-container {
     display: flex;
     justify-content: center;
-    margin-top: 94px;
     padding: 0px;
     padding-bottom: 16px;
+    padding-bottom: 94px;
 }
 
 .filter-item:not(:last-child) {
