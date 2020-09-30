@@ -45,6 +45,12 @@ a:focus {
     color: var(--accent-color);
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 94px 15px;
+}
+
 .header-container {
     width: 1200px;
     padding-left: 15px;
@@ -251,7 +257,10 @@ a:focus {
 }
 
 .team-container {
+    width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -280,7 +289,7 @@ a:focus {
 
 .team-member-position {
     margin: 0px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     font-size: 16px;
     line-height: 1.188;
     text-align: center;
@@ -375,7 +384,7 @@ a:focus {
 }
 
 .projects-item {
-    display: inline-block;
+    display: block;
     width: 370px;
     height: 404px;
     margin-right: 30px;
