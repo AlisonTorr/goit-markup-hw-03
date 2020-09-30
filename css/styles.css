@@ -45,12 +45,6 @@ a:focus {
     color: var(--accent-color);
 }
 
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 94px 15px;
-}
-
 .header-container {
     width: 1200px;
     padding-left: 15px;
