@@ -331,12 +331,12 @@ a:focus {
 }
 
 .filter-container {
-    display: flex;
-    justify-content: center;
     padding: 0px;
     padding-bottom: 16px;
     padding-top: 94px;
     margin-bottom: 34px;
+    display: flex;
+    justify-content: center;
 }
 
 .filter-item:not(:last-child) {
