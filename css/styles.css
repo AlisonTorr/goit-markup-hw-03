@@ -176,7 +176,7 @@ a:focus {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 89px;
+    padding-top: 94px;
     padding-bottom: 94px;
     display: flex;
     flex-wrap: wrap;
@@ -239,6 +239,10 @@ a:focus {
 
 .features-item:not(:last-child) {
     margin-right: 30px;
+}
+
+.features-img {
+    display: block;
 }
 
 .team-section {
