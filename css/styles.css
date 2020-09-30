@@ -251,8 +251,6 @@ a:focus {
 .team-section {
     padding-top: 94px;
     padding-bottom: 94px;
-    padding-left: 15px;
-    padding-right: 15px;
     background-color: var(--third-background-color);
 }
 
@@ -268,6 +266,8 @@ a:focus {
 
 .team-item {
     background-color: var(--primary-background-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-item:not(:last-child) {
     margin-right: 30px;
