@@ -251,6 +251,7 @@ a:focus {
 }
 
 .team-container {
+    max-width: 1600px;
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--third-background-color);
