@@ -177,12 +177,16 @@ a:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.why-us-list {
+.why-us-container {
     width: 1200px;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.why-us-list {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -198,6 +202,7 @@ a:focus {
 
 .why-us-title {
     margin: 0;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
@@ -207,6 +212,7 @@ a:focus {
 }
 
 .why-us-description {
+    margin: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
@@ -251,23 +257,23 @@ a:focus {
 }
 
 .team-container {
+    min-width: 1200px;
     max-width: 1600px;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    margin: 0 auto;
+    padding: 94px 15px;
     background-color: var(--third-background-color);
 }
 
 .team-list {
     width: 1200px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .team-item {
+    padding-bottom: 30px;
     background-color: var(--primary-background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -292,7 +298,6 @@ a:focus {
 
 .team-member-position {
     margin: 0px;
-    padding-bottom: 30px;
     font-size: 16px;
     line-height: 1.188;
     text-align: center;
@@ -339,11 +344,14 @@ a:focus {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.filter-container {
-    padding: 0px;
-    padding-bottom: 16px;
+.projects-section {
     padding-top: 94px;
-    margin-bottom: 34px;
+    padding-bottom: 94px;
+}
+
+.filter-list {
+    padding: 0px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
 }
@@ -373,16 +381,16 @@ a:focus {
 }
 
 .projects-container {
+    margin: 0;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-    margin-bottom: 94px;
 }
 
 .projects-list {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
     padding-left: 0;
 }
 
